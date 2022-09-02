@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    top: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgb(25, 5, 101);
+    border-bottom: 1px solid black;
+    position: sticky;
+}
+
+nav .logo {
+    float: left;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #ddd;
+    font-family: cursive;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    line-height: 10px;
+    color: #ddd;
+    padding: 12px 20px;
+    text-decoration: none
+}
+
+nav ul li a:hover {
+    background-color: rgba(227, 193, 193, 0.7);
+    border-radius: 6px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image.jpg/tyer1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.section2 .img-wrapper {
+    margin-top: 1rem;
+    height: 400px;
+}
+
+.card-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.section2 .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center {
+    text-align: center;
+    color: white;
+}
+
+.first-para {
+    color: rgb(224, 201, 245);
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+
+.vegetarian {
+    padding-top: 14px;
+    background-color: #fff;
+    font-family: cursive;
+    text-align: center;
+   
+}
+
+.img-natural {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-inline: 30px;
+}
+
+.img-wrappera {
+    flex-basis: calc(33.33% - 20px);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 3px;
+ 
+  
+
+
+}
+
+.links-home {
+    padding-inline: 0;
+  line-height: 2;
+}
+
+.fo-size{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.img-wrappera img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-wrappera:hover{
+    box-shadow: 0 0 20px 0 rgba(69, 127, 215, 0.5);
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+
+.paragraph-one {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.protien-para {
+    text-align: justify;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding-inline: 30px;
+}
+
+#unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 300px;
+    margin: auto;
+    display: block;
+    width: 100%
+}
+
+.first {
+    padding: 4px;
+    margin: 2px;
+    text-align: justify;
+
+}
+
+.weight-lift {
+    color: #fff;
+}
+
+.section-machine>h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.machine-center {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.exercise-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+    background: linear-gradient(-328deg, rgb(122, 34, 138), rgb(216, 144, 144), rgb(100, 172, 197), rgb(53, 1, 53));
+}
+
+.about-machine {
+    background: linear-gradient(-328deg, hotpink, rgb(240, 192, 192), lightblue, rgb(233, 173, 233));
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1.6rem;
+    padding-inline: 30px;
+    text-align: justify;
+}
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1rem !important;
+    }
+
+    .col {
+        flex-basis: 100% !important;
+    }
+
+
+
+}
+
+@media (max-width: 425px) {
+    #unique {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-wrappera{
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    
+}

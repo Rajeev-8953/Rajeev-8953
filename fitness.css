@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+nav {
+    z-index: 1;
+    top: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgb(25, 5, 101);
+    border-bottom: 1px solid black;
+    position: sticky;
+}
+
+nav .logo {
+    float: left;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #ddd;
+    font-family: cursive;
+
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    line-height: 10px;
+    color: #ddd;
+    padding: 12px 20px;
+    text-decoration: none
+}
+
+nav ul li a:hover {
+    background-color: rgba(227, 193, 193, 0.7);
+    border-radius: 6px;
+}
+
+.footer-first {
+    max-width: 364px;
+    width: 100%;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/image.jpg/tyer1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.section2 .img-wrapper {
+    margin-top: 1rem;
+    height: 400px;
+}
+
+.card-container {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.section2 .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center {
+    text-align: center;
+    color: white;
+}
+
+.first-para {
+    color: rgb(224, 201, 245);
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: cursive;
+    font-size: 1.2rem;
+
+}
+
+
+.our {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 85px;
+    align-items: center;
+    background: linear-gradient(-328deg, hotpink, rgb(240, 192, 192), lightblue, rgb(233, 173, 233));
+    
+}
+
+.section2 {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+
+}
+
+.four {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.two {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.three {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.five {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.six {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.seven {
+    height: 420px;
+    border-radius: 10px;
+
+}
+
+.img-wrapper1 {
+    max-width: 420px;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.img-wrapper1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trainer-name {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.necessary-gym {
+    width: 100%;
+    background: linear-gradient(330deg, orange, rgb(199, 56, 149), lightgreen, lightblue, rgb(231, 209, 6), purple);
+}
+
+.h1-person {
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #ffff;
+    height: 55px;
+
+}
+
+.gym-para {
+    font-size: 1.8rem;
+    padding-inline: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video-wrapper {
+    width: 100%;
+    height: 450px;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.hard-exercise {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 90px;
+    align-items: center;
+
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    border-top-left-radius: 90px;
+    color: #fff;
+    bottom: 0;
+    padding-inline: 1.5rem;
+
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+col:nth-child(2),
+.col:nth-child(3) {
+    flex-basis: 15%;
+
+}
+
+.items-center {
+    align-items: center;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 2px solid #ccc;
+}
+
+.last-head {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.health {
+
+    padding-left: 15px;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+ul li {
+    list-style: none;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.west-wrapper {
+    padding-top: 14px;
+}
+
+.icon-form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+
+.fa-solid {
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+.social-icon {
+
+    display: flex;
+    gap: 25px;
+    height: 75px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.py-3 {
+    padding-block: 1rem;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.p-class {
+    text-align: center;
+    padding-block: 20px;
+    margin: 0;
+
+}
+
+.road-text {
+    padding-bottom: 10px;
+}
+
+
+.links-home {
+    padding-inline: 0;
+  line-height: 2;
+}
+
+.fac-facebook {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    color: #272cc4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fac-print {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    color: #c2350e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fac-twitter {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    color: #65a7e6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fac-whatsapp {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    color: #36ce2b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+
+    100% {
+        left: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1rem !important;
+    }
+
+    .col {
+        flex-basis: 100% !important;
+    }
+
+
+    .gym-para {
+        padding-top: 30px;
+        text-align: justify;
+        font-size: 1.1rem;
+        padding-inline: 30px;
+    }
+
+    .hard-exercise {
+        text-align: center;
+    }
+
+
+}
